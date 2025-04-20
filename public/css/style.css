@@ -503,7 +503,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   padding: 4rem 0; }
 
 .with-background {
-  background-image: url("../images/main.jpg")
+  background-image: url("../images/main1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 25px;
+  height: 600px;
 }
 
 @media (max-width: 991.98px) {
@@ -533,8 +537,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     position: absolute;
     content: "";
     width: 304px;
-    height: 264px;
-    background: url("../images/dots.png") right top; }
+    height: 264px;}
 
 .untree_co-hero .excerpt {
   margin-bottom: 30px; }
